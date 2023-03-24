@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import image from "../Jaerong.jpg";
 
 class ImgComponent extends Component {

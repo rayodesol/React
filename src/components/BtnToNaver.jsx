@@ -1,14 +1,17 @@
-import React, { Component } from "react";
+import { Component } from "react";
 
 class BtnToNaver extends Component {
-  constructor() {
-    super();
-    this.addr = "https://www.naver.com/";
-  }
+  const addr = "https://www.naver.com/";
+
+  // 이렇게 할 필요 없음.
+  // constructor() {
+  //   super();
+  //   this.addr = "https://www.naver.com/";
+  // }
 
   render() {
     return (
-      <a href={this.addr} target="_blank" rel="noopener noreferrer">
+      <a href={addr} target="_blank" rel="noopener noreferrer">
         <button>네이버로 이동</button>
       </a>
     );
