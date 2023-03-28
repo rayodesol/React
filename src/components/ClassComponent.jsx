@@ -4,7 +4,7 @@ import React, { Component } from "react";
 class ClassComponent extends Component {
   // 상속 받아 사용.
   render() {
-    return <h1>Class Component 입니다!</h1>;
+    return <h1 className="test">Class Component 입니다!</h1>;
   }
 }
 
