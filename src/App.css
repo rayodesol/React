@@ -1,16 +1,18 @@
 .App {
-  /* text-align: center; */
-  display: flex;
-  justify-content: space-between;
+  text-align: center;
+
+  /* ReactFragment.jsx 와 함께 (3/29) */
+  /* display: flex;
+  justify-content: space-between; */
 }
 
-.App h1 {
+/* .App h1 {
   background-color: skyblue;
 }
 
 .App span {
   background-color: orange;
-}
+} */
 
 .App-logo {
   height: 40vmin;

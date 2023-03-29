@@ -96,7 +96,7 @@ function App() {
       {/* 실습 - 3/29 useRef 활용하기 */}
       {/* <ColorInput /> */}
 
-      {/* useRef 로 DOM 컨트롤*/}
+      {/* useRef 로 DOM 컨트롤 */}
       {/* <RefDomControl /> */}
 
       {/* useRef 로 포커스 이동 시키기 */}
