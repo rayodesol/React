@@ -1,49 +1,57 @@
-import logo from './logo.svg';
+import React from 'react';
+// import logo from './logo.svg';
 import './App.css';
 
-// 3/24 수업
-import MainHeader from './components/MainHeader'; // mainHeader 만 쳐도 자동 완성됨.
+// // 3/24 수업
+// import MainHeader from './components/MainHeader'; // mainHeader 만 쳐도 자동 완성됨.
 
-// 실습 - 3/24 컴포넌트 만들기
-import BtnToNaver from './components/BtnToNaver';
-import ImgComponent from './components/ImgComponent';
+// // 실습 - 3/24 컴포넌트 만들기
+// import BtnToNaver from './components/BtnToNaver';
+// import ImgComponent from './components/ImgComponent';
 
-import ClassComponent from './components/ClassComponent';
-import FunctionalComponent from './components/FunctionalComponent';
+// import ClassComponent from './components/ClassComponent';
+// import FunctionalComponent from './components/FunctionalComponent';
 
-// 3/27 수업
-import Inline from './components/Inline';
-import EventHandler from './components/EventHandler';
-import Example1 from './components/Example1';
-import State from './components/State';
-import State2 from './components/State2';
-import Counter from './components/Counter';
-import Condition from './components/Condition';
-import ClassState from './components/ClassState';
-import StateAndVariable from './components/StateAndVariable';
+// // 3/27 수업
+// import Inline from './components/Inline';
+// import EventHandler from './components/EventHandler';
+// import Example1 from './components/Example1';
+// import State from './components/State';
+// import State2 from './components/State2';
+// import Counter from './components/Counter';
+// import Condition from './components/Condition';
+// import ClassState from './components/ClassState';
+// import StateAndVariable from './components/StateAndVariable';
 
-// 3/28 수업
-import StateProblem from './components/StateProblem';
-import List from './components/List';
-import PropsHeader from './components/PropsHeader';
-import MultiProps from './components/MultiProps';
-import ClassProps from './components/ClassProps';
-import ExList from './components/ExList';
-import ExMap from './components/ExMap';
-import CustomList from './components/CustomList';
-import CustomObj from './components/CustomObj';
-import ExPropsState from './components/ExPropsState';
+// // 3/28 수업
+// import StateProblem from './components/StateProblem';
+// import List from './components/List';
+// import PropsHeader from './components/PropsHeader';
+// import MultiProps from './components/MultiProps';
+// import ClassProps from './components/ClassProps';
+// import ExList from './components/ExList';
+// import ExMap from './components/ExMap';
+// import CustomList from './components/CustomList';
+// import CustomObj from './components/CustomObj';
+// import ExPropsState from './components/ExPropsState';
 
-// 3/29 수업
-import TestRef from './components/TestRef';
-import ChangeFocus from './components/ChangeFocus';
-import RefDomControl from './components/RefDomControl';
-import ColorInput from './components/ColorInput';
-import CalQuiz from './components/CalQuiz';
-import CalQuiz2 from './components/CalQuiz2';
-import RandomQuiz from './components/RandomQuiz';
-import Comparing from './components/Comparing';
-import ReactFragment from './components/ReactFragment';
+// // 3/29 수업
+// import TestRef from './components/TestRef';
+// import ChangeFocus from './components/ChangeFocus';
+// import RefDomControl from './components/RefDomControl';
+// import ColorInput from './components/ColorInput';
+// import CalQuiz from './components/CalQuiz';
+// import CalQuiz2 from './components/CalQuiz2';
+// import RandomQuiz from './components/RandomQuiz';
+// import Comparing from './components/Comparing';
+// import ReactFragment from './components/ReactFragment';
+
+// // 3/30 수업
+// import ConditionalState from './components/ConditionalState';
+// import ExConditionalRender from './components/ExConditionalRender';
+// import TestUseEffect from './TestUseEffect';
+// import TimerRender from './components/TimerRender';
+import PracticeTimerRender from './PracticeTimerRender';
 
 function App() {
   // const str = "Hello, JSX World!";
@@ -79,8 +87,23 @@ function App() {
 
   return (
     <div className="App">
+      {/* 실습 - 3/30 컴포넌트 타이머 */}
+      <PracticeTimerRender />
+
+      {/* useEffect Clean-up */}
+      {/* <TimerRender /> */}
+
+      {/* useEffect */}
+      {/* <TestUseEffect /> */}
+
+      {/* 실습 - 3/30 조건부 렌더링 처리 */}
+      {/* <ExConditionalRender /> */}
+
+      {/* 조건부 렌더링 */}
+      {/* <ConditionalState /> */}
+
       {/* React.Fragment */}
-      <ReactFragment />
+      {/* <ReactFragment /> */}
       {/* <h1>안녕하세요</h1>
       <span>반갑습니다</span> */}
 
