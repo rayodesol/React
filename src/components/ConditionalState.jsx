@@ -8,7 +8,7 @@ export default function ConditionalState() {
     condition == '보이기' ? setCondition('감추기') : setCondition('보이기');
   };
 
-  // 2번 이상 반복 되면 함수화 시키기!!
+  // 변수에 넣어 처리. 2번 이상 반복 되면 함수화 시키기!!
   const conditionalRender = condition === '감추기' && <ConditionalRender />;
 
   return (

@@ -51,7 +51,13 @@ import './App.css';
 // import ExConditionalRender from './components/ExConditionalRender';
 // import TestUseEffect from './TestUseEffect';
 // import TimerRender from './components/TimerRender';
-import PracticeTimerRender from './PracticeTimerRender';
+// import PracticeTimerRender from './PracticeTimerRender';
+
+// 3/31 수업
+// import UseEffectFetch from './UseEffectFetch';
+// import UsingUseMemo from './components/UsingUseMemo';
+// import TestStyled from './components/TestStyled';
+import ExStyledComponents from './components/ExStyledComponents';
 
 function App() {
   // const str = "Hello, JSX World!";
@@ -87,8 +93,20 @@ function App() {
 
   return (
     <div className="App">
+      {/* 실습 - 3/31 React 초기 페이지를 Styled 로 */}
+      <ExStyledComponents />
+
+      {/* Styled Components */}
+      {/* <TestStyled /> */}
+
+      {/* useMemo 실전 활용 */}
+      {/* <UsingUseMemo /> */}
+
+      {/* useEffect 실전 활용 */}
+      {/* <UseEffectFetch /> */}
+
       {/* 실습 - 3/30 컴포넌트 타이머 */}
-      <PracticeTimerRender />
+      {/* <PracticeTimerRender /> */}
 
       {/* useEffect Clean-up */}
       {/* <TimerRender /> */}
