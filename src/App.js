@@ -57,7 +57,13 @@ import './App.css';
 // import UseEffectFetch from './UseEffectFetch';
 // import UsingUseMemo from './components/UsingUseMemo';
 // import TestStyled from './components/TestStyled';
-import ExStyledComponents from './components/ExStyledComponents';
+// import ExStyledComponents from './components/ExStyledComponents';
+
+// // 4/3 수업
+// import PropsStyle from './components/PropsStyle';
+// import TestScss from './components/TestScss';
+import ImgComponent2 from './components/ImgComponent2';
+import FancyBorder from './components/FancyBorder';
 
 function App() {
   // const str = "Hello, JSX World!";
@@ -93,8 +99,25 @@ function App() {
 
   return (
     <div className="App">
+      {/* props.children */}
+      {/* 태그 사이의 요소들이 props.children 으로 전달됨 */}
+      <FancyBorder color="blue">
+        <h1>Hello, props.children</h1>
+        <p>이건 매우 유용한 기술입니다!</p>
+        <ImgComponent2 />
+      </FancyBorder>
+
+      {/* 퍼블릭 폴더 */}
+      {/* <ImgComponent2 /> */}
+
+      {/* SCSS */}
+      {/* <TestScss /> */}
+
+      {/* props 로 전달한 값으로 style 지정 */}
+      {/* <PropsStyle color="orange" /> */}
+
       {/* 실습 - 3/31 React 초기 페이지를 Styled 로 */}
-      <ExStyledComponents />
+      {/* <ExStyledComponents /> */}
 
       {/* Styled Components */}
       {/* <TestStyled /> */}
